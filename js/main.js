@@ -37,3 +37,35 @@ orderBtn.addEventListener('click', openModalWindow);
 modalCloseBtn.addEventListener('click', closeModalWindow);
 modalOverlay.addEventListener('click', closeModalWindow);
 modalWindow.addEventListener('click', stopPropagation);
+
+// Scroll-Up
+const scrollUp = document.querySelector('.scroll-up');
+const offset = 1;
+
+const getTop = () => window.scrollY || document.documentElement.scrollTop;
+
+// updateScrollUp
+const updateScrollUp = () => {
+  const height = document.documentElement.scrollHeight - window.innerHeight;
+  const step = height / 25;
+  let value = getTop() / step;
+  scrollUp.style.boxShadow = `inset 0 0 0 ${value}px #31d0aa`;
+};
+
+// onScroll
+window.addEventListener('scroll', () => {
+  updateScrollUp();
+  if (getTop() > offset) {
+    scrollUp.classList.add('scroll-up-active');
+  } else {
+    scrollUp.classList.remove('scroll-up-active');
+  }
+});
+
+// click
+scrollUp.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});
