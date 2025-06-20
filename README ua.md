@@ -1,4 +1,4 @@
-# 💼 WebStudio – Ефективні рішення для вашого бізнесу
+# WebStudio – Ефективні рішення для вашого бізнесу 💼
 
 🔗 **Демо:** [https://constantinekobushka.github.io/web-studio/](https://constantinekobushka.github.io/web-studio/)
 
