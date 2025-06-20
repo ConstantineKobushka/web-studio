@@ -1,13 +1,8 @@
----
-
-### 🇬🇧 **README англійською мовою**
-
-```markdown
 # 💼 WebStudio – Effective Solutions for Your Business
 
 ## 🔎 Project Description
 
-**WebStudio** is a modern one-page website (landing page) built with a *mobile-first* approach and responsive layout for screens **320px**, **768px**, and **1158px** wide. It features a user-friendly mobile menu, contact form, and a functional **"Order Service"** button.
+**WebStudio** is a modern one-page website (landing page) built with a _mobile-first_ approach and responsive layout for screens **320px**, **768px**, and **1158px** wide. It features a user-friendly mobile menu, contact form, and a functional **"Order Service"** button.
 
 Perfect for businesses looking to present their services online in a stylish and efficient way.
 
