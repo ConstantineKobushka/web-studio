@@ -1,6 +1,6 @@
 # WebStudio – Effective Solutions for Your Business 💼
 
-🔗 **Live Demo:** [https://constantinekobushka.github.io/web-studio](https://constantinekobushka.github.io/web-studio)
+🔗 **Live Demo:** [https://constantinekobushka.github.io/web-studio/](https://constantinekobushka.github.io/web-studio/)
 
 ## 🔎 Project Description
 
