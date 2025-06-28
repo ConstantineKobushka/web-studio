@@ -27,6 +27,7 @@ function closeModalWindow() {
   modalOverlay.classList.remove('is-open');
   noScrol();
 }
+
 function stopPropagation(e) {
   e.stopPropagation();
 }
